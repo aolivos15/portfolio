@@ -17,8 +17,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
       <Providers>
-        <div className='h-screen flex flex-col bg-cover' style={{ backgroundImage: 'url(stars_bg.webp)' }}>
-          <div className='flex-grow'>
+        <div className='h-screen flex flex-col'>
+          <div className='flex-grow bg-repeat' style={{ backgroundImage: 'url(stars_bg.webp)' }}>
             <NavBar />
             {children}
           </div>
