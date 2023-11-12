@@ -2,7 +2,7 @@
 
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
+import { Navbar, NavbarContent, NavbarItem, Link, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
 import { useState } from "react";
 
 const NavBar = () => {
@@ -19,6 +19,14 @@ const NavBar = () => {
     <Link className="text-blue-950 text-lg my-2" href="proyectos">
       Proyectos
     </Link>,
+    <span className="my-2">
+      <Link className="text-blue-950 text-2xl me-4" href="http://github.com/aolivos15" target="_blank">
+        <FontAwesomeIcon icon={faGithub} />
+      </Link>
+      <Link className="text-blue-950 text-2xl" href="https://www.linkedin.com/in/andrea-olivos-bustamante-8a6117230/" target="_blank">
+        <FontAwesomeIcon icon={faLinkedin} />
+      </Link>
+    </span>
   ];
 
   return (
