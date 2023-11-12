@@ -1,7 +1,5 @@
-import { faStar } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const AboutPage = () => {
+const ExperiencePage = () => {
 
   const pinkPillClasses = 'bg-pink-300 rounded-full px-4 md:px-6 py-1 md:py-2 border-2 border-pink-600 border-dashed text-sm md:text-base inline-block drop-shadow-md me-2 mb-2';
   const purplePillClasses = 'bg-purple-300 rounded-full px-4 md:px-6 py-1 md:py-2 border-2 border-purple-600 border-dashed text-sm md:text-base inline-block drop-shadow-md me-2 mb-2';
@@ -47,4 +45,4 @@ const AboutPage = () => {
   );
 }
 
-export default AboutPage;
+export default ExperiencePage;

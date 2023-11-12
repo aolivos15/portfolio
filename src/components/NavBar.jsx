@@ -11,10 +11,10 @@ const NavBar = () => {
 
   const menuItems = [
     <Link className="text-blue-950 text-lg my-2" href="/">
-      Inicio
-    </Link>,
-    <Link className="text-blue-950 text-lg my-2" href="about">
       Sobre mí
+    </Link>,
+    <Link className="text-blue-950 text-lg my-2" href="experiencia">
+      Experiencia
     </Link>,
     <Link className="text-blue-950 text-lg my-2" href="proyectos">
       Proyectos
@@ -28,21 +28,17 @@ const NavBar = () => {
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
-        {/* <NavbarBrand>
-          {/* <AcmeLogo />
-          <p className="font-bold text-inherit">ACME</p>
-        </NavbarBrand> */}
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-12" justify="center">
         <NavbarItem>
           <Link className="text-white text-lg" href="/">
-            Inicio
+            Sobre mí
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-white text-lg" href="about">
-            Sobre mí
+          <Link className="text-white text-lg" href="experiencia">
+            Experiencia
           </Link>
         </NavbarItem>
         <NavbarItem>
