@@ -34,7 +34,7 @@ const ProjectsPage = () => {
               <Image
                 alt="Card background"
                 className="object-cover rounded-xl my-3"
-                src="proy_ovillofeliz.png"
+                src="proy_ovillofeliz.webp"
                 width={270}
               />
             </div>
@@ -69,7 +69,7 @@ const ProjectsPage = () => {
               <Image
                 alt="Card background"
                 className="object-cover rounded-xl my-3"
-                src="proy_dulcesmigajas.png"
+                src="proy_dulcesmigajas.webp"
                 width={270}
               />
             </div>
@@ -103,7 +103,7 @@ const ProjectsPage = () => {
               <Image
                 alt="Card background"
                 className="object-cover rounded-xl my-3"
-                src="proy_pokemon.png"
+                src="proy_pokemon.webp"
                 width={270}
               />
             </div>
@@ -138,7 +138,7 @@ const ProjectsPage = () => {
               <Image
                 alt="Card background"
                 className="object-cover rounded-xl my-3"
-                src="proy_crud.png"
+                src="proy_crud.webp"
                 width={270}
               />
             </div>
@@ -171,7 +171,7 @@ const ProjectsPage = () => {
               <Image
                 alt="Card background"
                 className="object-cover rounded-xl my-3"
-                src="proy_landing.png"
+                src="proy_landing.webp"
                 width={270}
               />
             </div>
