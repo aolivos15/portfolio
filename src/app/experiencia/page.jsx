@@ -5,9 +5,9 @@ const ExperiencePage = () => {
   const purplePillClasses = 'bg-purple-300 rounded-full px-4 md:px-6 py-1 md:py-2 border-2 border-purple-600 border-dashed text-sm md:text-base inline-block drop-shadow-md me-2 mb-2';
 
   return (
-    <div className="flex flex-col justify-center align-middle text-blue-950 my-12 md:my-16">
+    <main className="flex flex-col justify-center align-middle text-blue-950 mb-10">
 
-      <h2 className="text-center font-bold text-3xl md:text-5xl mb-12 md:mb-20">Experiencia</h2>
+      <h2 className="text-center font-bold text-3xl md:text-5xl mt-14 mb-20">Experiencia</h2>
       <div className="max-w-3xl px-6 m-auto text-justify">
 
         <div className="border-2 border-dashed border-blue-950 rounded-3xl p-8 md:p-10 mb-10 bg-white/50 drop-shadow-lg">
@@ -41,7 +41,7 @@ const ExperiencePage = () => {
         </div>
 
       </div>
-    </div>
+    </main>
   );
 }
 

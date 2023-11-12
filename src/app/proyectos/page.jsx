@@ -10,7 +10,7 @@ const ProjectsPage = () => {
 
   return (
     <main className="mb-12 text-blue-950">
-      <h2 className="text-center text-5xl font-bold mt-14 mb-10">Proyectos</h2>
+      <h2 className="text-center text-3xl md:text-5xl font-bold mt-14 mb-10">Proyectos</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 p-10 lg:px-32 justify-items-center">
 
         <Card className="py-4 max-w-xs bg-white/50 border-2 border-dashed border-blue-950">
