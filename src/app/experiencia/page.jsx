@@ -10,7 +10,7 @@ const ExperiencePage = () => {
       <h2 className="text-center font-bold text-3xl md:text-5xl mb-12 md:mb-20">Experiencia</h2>
       <div className="max-w-3xl px-6 m-auto text-justify">
 
-        <div className="border-2 border-dashed border-blue-950 rounded-3xl p-8 md:p-10 mb-10 bg-white/25 drop-shadow-lg">
+        <div className="border-2 border-dashed border-blue-950 rounded-3xl p-8 md:p-10 mb-10 bg-white/50 drop-shadow-lg">
           <p className="font-bold text-lg md:text-2xl text-center md:text-left">Desarrolladora full stack</p>
           <p className="mb-3 text-sm md:text-base text-center md:text-left">Laboratorio Mauletec ☆ jun 2023 - presente</p>
           <ul className="list-disc md:ms-6 mb-6 text-sm md:text-lg">
@@ -26,7 +26,7 @@ const ExperiencePage = () => {
           </div>
         </div>
 
-        <div className="border-2 border-dashed border-blue-950 rounded-3xl p-10 mb-10 bg-white/25 drop-shadow-lg">
+        <div className="border-2 border-dashed border-blue-950 rounded-3xl p-10 mb-10 bg-white/50 drop-shadow-lg">
           <p className="font-bold text-lg md:text-2xl text-center md:text-left">Desarrolladora front end</p>
           <p className="mb-3 text-sm md:text-base text-center md:text-left">Laboratorio Mauletec ☆ mar 2021 - dic 2021</p>
           <ul className="list-disc md:ms-6 mb-6 text-sm md:text-lg">
