@@ -10,9 +10,15 @@ const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    "Inicio",
-    "Sobre mí",
-    "Proyectos",
+    <Link className="text-blue-950 text-lg my-2" href="/">
+      Inicio
+    </Link>,
+    <Link className="text-blue-950 text-lg my-2" href="about">
+      Sobre mí
+    </Link>,
+    <Link className="text-blue-950 text-lg my-2" href="proyectos">
+      Proyectos
+    </Link>,
   ];
 
   return (
