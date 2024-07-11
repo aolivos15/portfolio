@@ -14,7 +14,7 @@ const ExperiencePage = () => {
 
         <div className="border-2 border-dashed border-blue-950 rounded-3xl p-8 md:p-10 mb-10 bg-white/50 drop-shadow-lg">
           <p className="font-bold text-lg md:text-2xl text-center md:text-left">Desarrolladora full stack</p>
-          <p className="mb-3 text-sm md:text-base text-center md:text-left">Laboratorio Mauletec ☆ jun 2023 - presente</p>
+          <p className="mb-3 text-sm md:text-lg text-center md:text-left">Laboratorio Mauletec ☆ jun 2023 - presente</p>
           <ul className="list-disc md:ms-6 mb-6 text-sm md:text-lg">
             <li>Montar plataforma de videollamadas en base a Jitsi Meet para realizar terapias online.</li>
             <li>Desarrollar dashboard para que psicólogos puedan llevar registro de sus pacientes, notas de sesión, manuales de terapia, cuestionarios aplicados, envíen recordatorios, etc.</li>
@@ -36,7 +36,7 @@ const ExperiencePage = () => {
 
         <div className="border-2 border-dashed border-blue-950 rounded-3xl p-10 mb-10 bg-white/50 drop-shadow-lg">
           <p className="font-bold text-lg md:text-2xl text-center md:text-left">Desarrolladora front end</p>
-          <p className="mb-3 text-sm md:text-base text-center md:text-left">Laboratorio Mauletec ☆ mar 2021 - dic 2021</p>
+          <p className="mb-3 text-sm md:text-lg text-center md:text-left">Laboratorio Mauletec ☆ mar 2021 - dic 2021</p>
           <ul className="list-disc md:ms-6 mb-6 text-sm md:text-lg">
             <li>Desarrollar <Link className=" text-blue-800 underline decoration-dashed transition ease-in-out delay-150 hover:text-blue-600" href="https://bioinformaticavirtual.utalca.cl/" target="_blank">sitio web</Link> para la exposición "Realidad Virtual y Bioinformática: Ingenierías multidisciplinares", una feria interactiva realizada para dar a conocer estas disciplinas al público de la Región del Maule.</li>
             <li>Desarrollar aplicación para la actividad 2 de la feria, <Link className=" text-blue-800 underline decoration-dashed transition ease-in-out delay-150 hover:text-blue-600" href="https://interactive.utalca.cl/cienciapublica/blocky1.4/nivel1.html" target="_blank">"Programando Proteínas"</Link>, un videojuego de tipo puzzle diseñado para introducir a las personas al mundo de la programación, construido en base a la librería Blockly de Javascript.</li>
@@ -54,6 +54,18 @@ const ExperiencePage = () => {
         </div>
 
       </div>
+
+      <h2 className="text-center font-bold text-3xl md:text-5xl mt-14 mb-20">Formación</h2>
+      <div className="max-w-3xl md:w-2/3 px-6 m-auto text-justify">
+
+        <div className="border-2 border-dashed border-blue-950 rounded-3xl p-8 md:p-10 mb-10 bg-white/50 drop-shadow-lg">
+          <p className="font-bold text-lg md:text-2xl text-center md:text-left">Ingeniería en Bioinformática</p>
+          <p className="mb-3 text-sm md:text-lg text-center md:text-left">Universidad de Talca, Chile ☆ 2020</p>
+          <p className="font-bold text-lg md:text-2xl text-center md:text-left mt-8">Bootcamp de Desarrollo Web Full Stack</p>
+          <p className="mb-3 text-sm md:text-lg text-center md:text-left">Universidad del Desarrollo, Chile ☆ 2023</p>
+        </div>
+      </div>
+
     </main>
   );
 }
